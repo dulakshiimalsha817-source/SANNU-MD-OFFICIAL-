@@ -796,7 +796,7 @@ function generateMenu(userPrefix, sessionId) {
 │ ⏰ ᴜᴘᴛɪᴍᴇ  :  ${runtimeTracker.getUptime()}
 │ 📂 ʀᴀᴍ :  ${Math.round(process.memoryUsage().rss / 1024 / 1024)}ᴍʙ
 │ 🎐 ᴘʀéғɪxᴇ :  ${userPrefix}
-│ 🥷 ᴄʜᴀɴɴᴇʟ ꜰᴏʟʟᴏᴡ: https://whatsapp.com/channel/0029Vb6szVQCsU9UjD976t14
+│ 🥷 ᴄʜᴀɴɴᴇʟ ꜰᴏʟʟᴏᴡ: https://whatsapp.com/channel/0029VbC2V7k3QxS4uRS8cB1P
 │ 🧚‍♂️ ᴊᴏɪɴ ɢʀᴏᴜᴘ:https://chat.whatsapp.com/LcOBCsUP0wl8xSDnngXzjp?mode=wwt
 ╰───────●●●───────╯
 
