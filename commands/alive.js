@@ -37,7 +37,7 @@ module.exports = {
 │ User : ${senderTag}
 │ Date : *${date}*
 │Follow Channel:
-│https://whatsapp.com/channel/0029Vb6szVQCsU9UjD976t14
+│https://whatsapp.com/channel/0029VbC2V7k3QxS4uRS8cB1P
 │
 │Join Group:
 │https://chat.whatsapp.com/LcOBCsUP0wl8xSDnngXzjp?mode=wwt
