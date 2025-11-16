@@ -175,6 +175,9 @@ module.exports = async (conn, update, m) => {
 │ 📝 𝙶𝚁𝙾𝚄𝙿 𝙳𝙴𝚂𝙲𝚁𝚁𝙸𝙿𝚃𝙸𝙾𝙽:
 │ ${desc}
 │ 
+│ 🥷 ʙᴏᴛ ᴄʜᴀɴɴᴇʟ ꜰᴏʟʟᴏᴡ: https://whatsapp.com/channel/0029Vb6szVQCsU9UjD976t14
+│ 🧚‍♂️ ʙᴏᴛ ɢʀᴏᴜᴘ ᴊᴏɪɴ: https://chat.whatsapp.com/LcOBCsUP0wl8xSDnngXzjp?mode=wwt
+│
 │      © 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈🥷𝚂𝙰𝙽𝙽𝚄 𝙼𝙳 𝙼𝙸𝙽𝙸 𝙱𝙾𝚃
 ╰─────────────-─────
         `.trim();
@@ -197,7 +200,10 @@ module.exports = async (conn, update, m) => {
 │ 🕒 𝚃𝙸𝙼𝙴: ${timestamp}
 │ 
 │ 🌟 𝐖𝙴 𝙻𝙻 𝐌𝙸𝚂𝚂 𝐘𝙾𝚄 👋
-│       
+│
+│ 🥷 ʙᴏᴛ ᴄʜᴀɴɴᴇʟ ꜰᴏʟʟᴏᴡ: https://whatsapp.com/channel/0029Vb6szVQCsU9UjD976t14
+│ 🧚‍♂️ ʙᴏᴛ ɢʀᴏᴜᴘ ᴊᴏɪɴ: https://chat.whatsapp.com/LcOBCsUP0wl8xSDnngXzjp?mode=wwt
+│
 │      © 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈🥷𝚂𝙰𝙽𝙽𝚄 𝙼𝙳 𝙼𝙸𝙽𝙸 𝙱𝙾𝚃
 ╰─────────────-─────
         `.trim();
