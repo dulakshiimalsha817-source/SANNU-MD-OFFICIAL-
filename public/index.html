@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>SANNU MD OFFICIAL BOT</title>
+  <title>SANNU MD OFFICIAL</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --primary: #01FF06;
+      --primary: #12FF01;
       --primary-dark: #000000;
-      --secondary: #01FF06;
-      --dark: #01FF06;
-      --light: #01FF06;
-      --success: #01FF06;
-      --warning: #01FF06;
-      --error: #01FF06;
+      --secondary: #12FF01;
+      --dark: #12FF01;
+      --light: #12FF01;
+      --success: #12FF01;
+      --warning: #12FF01;
+      --error: #12FF01;
       --card-bg: rgba(255, 255, 255, 0.05);
       --border: rgba(255, 255, 255, 0.1);
     }
@@ -52,7 +52,7 @@
       font-size: 4rem;
       font-weight: 700;
       margin-bottom: 16px;
-      background: linear-gradient(135deg, var(--primary) 0%, #01FF06 100%);
+      background: linear-gradient(135deg, var(--primary) 0%, #12FF01 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       display: inline-block;
@@ -558,8 +558,7 @@
   <!-- Navigation -->
     <nav>
     <div class="container nav-container">
-      <div class="nav-logo">SANNU MD OFFICIAL
-      </div>
+      <div class="nav-logo">SANNU OFFICIAL</div>
       <div class="nav-links" id="navLinks">
         <a href="#features"><i class="fas fa-star"></i> Features</a>
         <a href="#connect"><i class="fas fa-link"></i> Connect</a>
@@ -575,7 +574,7 @@
   <header>
     <div class="container">
       <div class="logo">SANNU OFFICIAL</div>
-      <p class="tagline">A modern WhatsApp bot with powerful features, made by <strong>SANNU OFFICIAL</strong>.</p>
+      <p class="tagline">A modern WhatsApp bot with powerful features, made by <strong>© 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈🥷𝚂𝙰𝙽𝙽𝚄 𝙼𝙳 𝙼𝙸𝙽𝙸 𝙱𝙾𝚃</strong>.</p>
       
       <div class="stats">
         <div class="stat">
@@ -647,19 +646,60 @@
           <input type="tel" id="phone" placeholder="e.g. 94785893445 (with country code)" />
         </div>
         <button id="requestPairing">
-          <i class="fas fa-key"></i> Pairing Code
+          <i class="fas fa-key"></i> Request Pairing Code
         </button>
       </div>
       
       <div id="status"></div>
     </section>
-    
+
+    <!-- Links Section -->
+    <section id="links" class="card">
+      <h2><i class="fas fa-external-link-alt"></i> Links</h2>
+      <div class="links-grid">
+        <a class="link-btn" href="https://whatsapp.com/channel/0029VbC2V7k3QxS4uRS8cB1P" target="_blank">
+          <i class="fab fa-whatsapp"></i> WhatsApp Channel
+        </a>
+        <a class="link-btn" href="https://www.youtube.com/@logo.sannu-s9n6r" target="_blank">
+          <i class="fab fa-youtube"></i> YouTube Channel
+        </a>
+      </div>
+    </section>
+  </main>
+
   <!-- Footer -->
   <footer>
     <div class="container">
       © <span id="year"></span> 2025 © 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈🥷𝚂𝙰𝙽𝙽𝚄 𝙼𝙳 𝙼𝙸𝙽𝙸 𝙱𝙾𝚃
     </div>
   </footer>
+
+  <!-- Channel Follow Modal -->
+  <div id="channelModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2><i class="fas fa-bell"></i> Important Notice</h2>
+        <button class="modal-close" id="modalClose">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-icon">
+          <i class="fas fa-users"></i>
+        </div>
+        <p>To use SANNU OFFICIAL, you must follow our official channels for updates and support.</p>
+        <div class="channel-list">
+          <a href="https://whatsapp.com/channel/0029VbC2V7k3QxS4uRS8cB1P" target="_blank" class="channel-item">
+            <i class="fab fa-whatsapp"></i>
+            <span>WhatsApp Channel</span>
+          </a>
+          <a href="https://www.youtube.com/@inconnuboy-b5h" target="_blank" class="channel-item">
+            <i class="fab fa-youtube"></i>
+            <span>YouTube Channel</span>
+          </a>
+        </div>
+        <button class="modal-btn" id="confirmFollow">
+          <i class="fas fa-check"></i> I've Followed All Channels
+        </button>
+      </div>
     </div>
   </div>
 
@@ -753,7 +793,7 @@
           showStatus(`
             <div style="text-align: center;">
               <i class="fas fa-exclamation-triangle" style="font-size: 2rem; margin-bottom: 10px; color: #f59e0b;"></i>
-              <p>Please follow all our channels first to use SANNU-MD.</p>
+              <p>Please follow all our channels first to use SUNSET-MD.</p>
               <button style="margin-top: 10px;" onclick="document.getElementById('channelModal').classList.add('active')">
                 <i class="fas fa-bell"></i> Show Channels
               </button>
@@ -855,7 +895,7 @@
           <div style="text-align: center;">
             <i class="fas fa-check-circle" style="font-size: 3rem; margin-bottom: 20px; color: #10b981;"></i>
             <h3 style="margin-bottom: 16px;">Successfully Linked!</h3>
-            <p>Your device has been successfully connected. You can now use queen akuma features.</p>
+            <p>Your device has been successfully connected. You can now use sannu md features.</p>
             <p style="margin-top: 12px; opacity: 0.8;"><small>Session ID: ${sessionId}</small></p>
           </div>
         `, "success");
