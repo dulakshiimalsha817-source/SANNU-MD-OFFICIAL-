@@ -759,7 +759,7 @@ function generateMenu(userPrefix, sessionId) {
         { name: 'prefix', tags: ['settings'] },
         { name: 'menu', tags: ['utility'] },
         { name: 'help', tags: ['utility'] },
-        { name: 'akuma', tags: ['utility'] }
+        { name: 'sannu', tags: ['utility'] }
     ];
 
     // Get commands from commands folder  
@@ -796,9 +796,11 @@ function generateMenu(userPrefix, sessionId) {
 │ ⏰ ᴜᴘᴛɪᴍᴇ  :  ${runtimeTracker.getUptime()}
 │ 📂 ʀᴀᴍ :  ${Math.round(process.memoryUsage().rss / 1024 / 1024)}ᴍʙ
 │ 🎐 ᴘʀéғɪxᴇ :  ${userPrefix}
-│ 🥷 ᴄʜᴀɴɴᴇʟ ꜰᴏʟʟᴏᴡ: https://whatsapp.com/channel/0029VbC2V7k3QxS4uRS8cB1P
-│ 🧚‍♂️ ᴊᴏɪɴ ɢʀᴏᴜᴘ:https://chat.whatsapp.com/LcOBCsUP0wl8xSDnngXzjp?mode=wwt
-╰───────●●●───────╯
+│ 🥷 ᴄʜᴀɴɴᴇʟ ꜰᴏʟʟᴏᴡ:
+│https://whatsapp.com/channel/0029VbC2V7k3QxS4uRS8cB1P
+│ 🧚‍♂️ ᴊᴏɪɴ ɢʀᴏᴜᴘ:
+│https://chat.whatsapp.com/LcOBCsUP0wl8xSDnngXzjp?mode=wwt
+╰──────●●●──────╯
 
 `;
 
@@ -883,7 +885,7 @@ function setupConnectionHandlers(conn, sessionId, io, saveCreds) {
 │  👸 SANNU MD
 │  📌 PRÉFIX : ${PREFIX}
 │
-╰─────────────-─────
+╰─────────────
                         `;
 
                         // Send welcome message to user's DM with proper JID format and requested style
