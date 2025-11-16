@@ -12,7 +12,7 @@ module.exports = {
       try {
         botPp = await conn.profilePictureUrl(conn.user.id, "image");
       } catch {
-        botPp = "https://files.catbox.moe/nmcqfa.jpg";
+        botPp = "https://files.catbox.moe/oi2b22.jpg";
       }
 
       // System & uptime
