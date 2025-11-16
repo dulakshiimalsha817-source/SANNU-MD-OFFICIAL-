@@ -790,12 +790,14 @@ function generateMenu(userPrefix, sessionId) {
 
     // Generate menu text in sannu md style
     let menuText = `╭─『Sᴀɴɴᴜ Mᴅ Mɪɴɪ Bᴏᴛ』─╮
-│ 🔮 ʙᴏᴛ :  ꜱꜱɴɴᴜ ᴍᴅ ᴍɪɴɪ ʙᴏᴛ
+│ 🔮 ʙᴏᴛ :  ꜱᴀɴɴᴜ ᴍᴅ ᴍɪɴɪ ʙᴏᴛ
 │ 👤 ᴜsᴇʀ :  ${sessionId}
 │ 🧩 ᴏᴡɴᴇʀ :  ꜱᴀɴɴᴜ x
 │ ⏰ ᴜᴘᴛɪᴍᴇ  :  ${runtimeTracker.getUptime()}
 │ 📂 ʀᴀᴍ :  ${Math.round(process.memoryUsage().rss / 1024 / 1024)}ᴍʙ
 │ 🎐 ᴘʀéғɪxᴇ :  ${userPrefix}
+│ 🥷 ᴄʜᴀɴɴᴇʟ ꜰᴏʟʟᴏᴡ: https://whatsapp.com/channel/0029Vb6szVQCsU9UjD976t14
+│ 🧚‍♂️ ᴊᴏɪɴ ɢʀᴏᴜᴘ:https://chat.whatsapp.com/LcOBCsUP0wl8xSDnngXzjp?mode=wwt
 ╰───────●●●───────╯
 
 `;
