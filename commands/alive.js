@@ -43,10 +43,7 @@ module.exports = {
 │https://chat.whatsapp.com/LcOBCsUP0wl8xSDnngXzjp?mode=wwt
 │
 │© 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈🥷𝚂𝙰𝙽𝙽𝚄 𝙼𝙳 𝙼𝙸𝙽𝙸 𝙱𝙾𝚃
-╰────────────────
-ι αм ѕαηηυ м∂ мιηι вσт👋αℓινє ησω ¢σммαη∂ вσт ¢яєαтє∂ ву
-ѕαηηυ χ∂ σωηєя🥷
-
+╰───────────────
 ⟢ System: *${os.type()} ${os.release()}*
 ⟢ CPU: *${os.cpus().length} Cores*
 ⟢ RAM: *${usedMem}GB / ${totalMem}GB*
