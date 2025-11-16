@@ -3,6 +3,7 @@ module.exports = {
   desc: "Check if bot is online",
   category: "general",
   use: ".alive",
+  ricat:"👋"
   filename: __filename,
 
   execute: async (conn, message, m, { from, reply, sender }) => {
