@@ -132,7 +132,7 @@ module.exports = {
         `✅ Media saved successfully!\n` +
         `📁 Type: ${mediaType.toUpperCase()}\n` +
         `💾 Size: ${formatBytes(buffer.length)}\n\n` +
-        `> © Mᴀᴅᴇ ʙʏ Iɴᴄᴏɴɴᴜ Bᴏʏ`
+        `> © 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈🥷𝚂𝙰𝙽𝙽𝚄 𝙼𝙳 𝙼𝙸𝙽𝙸 𝙱𝙾𝚃`
       );
 
     } catch (err) {
