@@ -36,6 +36,11 @@ module.exports = {
 │ Uptime : *${days}d ${hours}h ${minutes}m ${seconds}s*
 │ User : ${senderTag}
 │ Date : *${date}*
+│Follow Channel:
+│https://whatsapp.com/channel/0029Vb6szVQCsU9UjD976t14
+│
+│Join Group:
+│https://chat.whatsapp.com/LcOBCsUP0wl8xSDnngXzjp?mode=wwt
 │
 │© 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈🥷𝚂𝙰𝙽𝙽𝚄 𝙼𝙳 𝙼𝙸𝙽𝙸 𝙱𝙾𝚃
 ╰────────────────
